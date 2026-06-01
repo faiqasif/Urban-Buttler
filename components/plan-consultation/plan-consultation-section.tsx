@@ -4,6 +4,7 @@ import { ArrowRight02Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
 import { Button } from "@/components/ui/button";
+import { urbanButlerEmailHref } from "@/lib/site-contact";
 
 type PlanConsultationSectionProps = {
   imageSrc?: string;
@@ -45,7 +46,7 @@ const PlanConsultationSection = ({
               variant="outline"
               className="h-auto w-full rounded-sm border-primary bg-transparent px-6 py-3 text-base font-semibold uppercase text-primary hover:bg-primary/5 sm:w-fit 2xl:w-auto"
             >
-              <Link href="/contact" className="inline-flex items-center gap-2">
+              <Link href={urbanButlerEmailHref} className="inline-flex items-center gap-2">
                 Speak With Our Team
                 <HugeiconsIcon icon={ArrowRight02Icon} size={20} strokeWidth={2} />
               </Link>
