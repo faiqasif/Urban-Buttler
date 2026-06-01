@@ -14,8 +14,8 @@ const forHotelsCtaBenefits = [
 const ForHotelsCtaSection = () => {
   return (
     <section className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-16">
-        <div className="grid items-center gap-10 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)_minmax(0,0.9fr)] xl:gap-6 2xl:gap-8 3xl:grid-cols-[minmax(0,489px)_minmax(0,1fr)_minmax(280px,360px)] 3xl:gap-12">
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-11.25">
+        <div className="grid items-center xl:items-start gap-10 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)_minmax(0,0.9fr)] xl:gap-6 2xl:gap-8 3xl:grid-cols-[minmax(0,489px)_minmax(0,1fr)_minmax(280px,360px)] 3xl:gap-12">
           <Image
             src="/for-hotels/fh2.png"
             alt="Luxury coastal resort at sunset"

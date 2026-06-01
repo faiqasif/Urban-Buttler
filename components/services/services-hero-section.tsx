@@ -19,7 +19,7 @@ const ServicesHeroSection = () => {
             to perfection.
           </h1>
 
-          <span className="mt-3 block h-0.75 rounded-full w-12 xl:w-[73px] bg-primary" aria-hidden="true" />
+          <span className="mt-2 block h-0.75 rounded-full w-12 xl:w-[173px] 3xl:w-[200px] bg-primary" aria-hidden="true" />
 
           <p className="mt-6 max-w-md text-base leading-relaxed text-[#4E4E4E] font-medium tracking-tight sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
             From everyday essentials to exceptional experiences, Urban Butler

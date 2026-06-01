@@ -22,7 +22,7 @@ const ForProvidersCtaSection = () => {
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
             <Button
               asChild
-              className="h-auto rounded-sm p-4 font-semibold uppercase"
+              className="h-11.5 rounded-sm px-8 font-semibold uppercase"
             >
               <Link href="/contact">Apply to Join</Link>
             </Button>
@@ -30,7 +30,7 @@ const ForProvidersCtaSection = () => {
             <Button
               asChild
               variant="outline"
-              className="h-auto rounded-sm border-primary bg-transparent p-4 font-semibold uppercase text-primary hover:bg-primary/5"
+              className="h-11.5 rounded-sm border-primary bg-transparent px-8 font-semibold uppercase text-primary hover:bg-primary/5"
             >
               <Link href="/contact">Questions? Contact Us</Link>
             </Button>

@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-4 py-4 lg:px-10 xl:max-w-[1820px]">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-4 py-2 3xl:py-3 lg:px-10 xl:max-w-[1820px]">
         <Link href="/" className="shrink-0">
           <Image
             src="/logo.png"
@@ -28,7 +28,7 @@ const Header = () => {
           />
         </Link>
 
-        <nav className="hidden 3xl:items-end gap-7 3xl:h-16 lg:flex">
+        <nav className="hidden pt-5 3xl:pt-0 3xl:items-end gap-7 3xl:h-16 lg:flex">
           {navLinks.map((link) =>
             hasDropdown(link) ? (
               <NavDropdownLink key={link.href} pathname={pathname} />
