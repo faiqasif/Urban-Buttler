@@ -1,3 +1,5 @@
+import { urbanButlerEmail, urbanButlerEmailHref } from "@/lib/site-contact";
+
 export const contactInterestOptions = [
   "Personal Concierge / Membership",
   "Services",
@@ -18,8 +20,8 @@ export const contactInfoItems = [
   {
     label: "Email Us",
     icon: "/contact/2.svg",
-    detail: "hello@urbanbutlerconcierge.com",
-    href: "mailto:hello@urbanbutlerconcierge.com",
+    detail: urbanButlerEmail,
+    href: urbanButlerEmailHref,
   },
   {
     label: "WhatsApp",

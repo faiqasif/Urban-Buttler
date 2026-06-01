@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import { urbanButlerEmailHref } from "@/lib/site-contact";
 
 const ForCorporationsHeroSection = () => {
   return (
@@ -29,7 +30,7 @@ const ForCorporationsHeroSection = () => {
               asChild
               className="h-11.5 w-fit rounded-sm p-4 font-semibold uppercase"
             >
-              <Link href="/contact">Partner With Us</Link>
+              <Link href={urbanButlerEmailHref}>Partner With Us</Link>
             </Button>
 
             <p className="max-w-xs text-sm font-medium tracking-tight text-[#545454] 2xl:text-base">

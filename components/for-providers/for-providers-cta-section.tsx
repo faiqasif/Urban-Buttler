@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import { urbanButlerEmailHref } from "@/lib/site-contact";
 
 const ForProvidersCtaSection = () => {
   return (
@@ -24,7 +25,7 @@ const ForProvidersCtaSection = () => {
               asChild
               className="h-11.5 rounded-sm px-8 font-semibold uppercase"
             >
-              <Link href="/contact">Apply to Join</Link>
+              <Link href={urbanButlerEmailHref}>Apply to Join</Link>
             </Button>
 
             <Button

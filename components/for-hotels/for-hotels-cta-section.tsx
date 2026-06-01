@@ -4,6 +4,7 @@ import { ArrowRight02Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 
 import { Button } from "@/components/ui/button";
+import { urbanButlerEmailHref } from "@/lib/site-contact";
 
 const forHotelsCtaBenefits = [
   "Easy Integration",
@@ -37,7 +38,7 @@ const ForHotelsCtaSection = () => {
               asChild
               className="mt-6 h-11.5 w-full rounded-sm p-4 font-semibold uppercase sm:w-fit"
             >
-              <Link href="/contact" className="inline-flex items-center gap-2">
+              <Link href={urbanButlerEmailHref} className="inline-flex items-center gap-2">
                 Partner With Us
                 <HugeiconsIcon icon={ArrowRight02Icon} size={20} strokeWidth={2} />
               </Link>

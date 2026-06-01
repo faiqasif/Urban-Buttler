@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import { urbanButlerEmailHref } from "@/lib/site-contact";
 
 const ForHotelsHeroSection = () => {
   return (
@@ -27,7 +28,7 @@ const ForHotelsHeroSection = () => {
             asChild
             className="mt-8 h-11.5 w-fit rounded-sm p-4 font-semibold uppercase"
           >
-            <Link href="/contact">Partner With Us</Link>
+            <Link href={urbanButlerEmailHref}>Partner With Us</Link>
           </Button>
         </div>
 
