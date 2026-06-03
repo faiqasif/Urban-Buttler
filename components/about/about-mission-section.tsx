@@ -22,18 +22,9 @@ const AboutMissionSection = () => {
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:mt-8 xl:grid-cols-5 xl:gap-0 xl:divide-x xl:divide-[#E1D2BF]">
-          {aboutMissionValues.map((value, index) => (
-            <div
-              key={value.title}
-              className={
-                index === 0
-                  ? "xl:pr-6"
-                  : index === aboutMissionValues.length - 1
-                    ? "xl:pl-4"
-                    : "xl:px-4"
-              }
-            >
+        <div className="mt-8 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:mt-8 xl:grid-cols-5 xl:gap-0 xl:divide-x xl:divide-[#E1D2BF] 3xl:grid-cols-[0.9fr_1.03fr_1fr_1fr_1fr]">
+          {aboutMissionValues.map((value) => (
+            <div key={value.title} className="min-w-0 xl:px-4">
               <AboutMissionValueItem value={value} />
             </div>
           ))}
