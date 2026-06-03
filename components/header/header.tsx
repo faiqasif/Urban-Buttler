@@ -23,6 +23,7 @@ const Header = () => {
             alt="Urban Butler Private Concierge"
             width={271}
             height={64}
+            quality={100}
             priority
             className="h-8 w-auto lg:h-11 2xl:h-16"
           />

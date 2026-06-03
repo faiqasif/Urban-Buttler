@@ -55,7 +55,7 @@ function FeatureItem({
 const TimePreciousSection = () => {
   return (
     <section className="bg-[#FDF8F2] border-b border-[#E1D2BF]">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 sm:px-10 md:grid-cols-2 md:gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(260px,320px)_minmax(0,1fr)] lg:py-11.25 xl:max-w-[1820px] 2xl:grid-cols-[minmax(0,1fr)_360px_minmax(0,1fr)] 2xl:gap-12 2xl:px-16">
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 sm:px-10 md:grid-cols-2 md:gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(260px,320px)_minmax(0,1fr)] lg:py-11.25 xl:max-w-[1820px] 2xl:grid-cols-[minmax(0,1fr)_360px_minmax(0,1fr)] 3xl:grid-cols-[minmax(0,1fr)_400px_minmax(0,1fr)] 2xl:gap-12 2xl:px-16">
         <div className="flex flex-col gap-8 md:gap-10 lg:contents">
           <div className="max-w-lg lg:max-w-none">
             <p className="text-xs font-medium uppercase text-primary sm:text-sm lg:text-base xl:text-lg">
@@ -77,7 +77,7 @@ const TimePreciousSection = () => {
             alt="Man in a suit overlooking the city skyline from a high-rise balcony"
             width={400}
             height={252}
-            className="w-full rounded-sm lg:w-auto"
+            className="w-full 3xl:min-w-[400px] rounded-sm lg:w-auto"
           />
         </div>
 

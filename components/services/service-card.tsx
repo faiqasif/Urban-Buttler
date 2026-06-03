@@ -10,15 +10,12 @@ export function ServiceCard({ service }: ServiceCardProps) {
   return (
     <article className="flex flex-col overflow-hidden rounded-xl border border-[#E1D2BF] bg-[#FDF8F3]">
       <div className="relative">
-        <div className="relative aspect-4/3 w-full overflow-hidden">
-          <Image
-            src={service.image}
-            alt={service.title}
-            fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1280px) 33vw, 20vw"
-            className="object-cover object-center"
-          />
-        </div>
+        <Image
+          src={service.image}
+          alt={service.title}
+          width={320}
+          height={191}
+        />
 
         <div className="absolute -bottom-5 xl:-bottom-8 left-1/2 flex size-10 lg:size-16 -translate-x-1/2 items-center justify-center rounded-full border bg-[#FDF7EE] border-[#E1D2BF]">
           <Image
@@ -35,7 +32,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <h3 className="text-sm font-semibold uppercase text-primary xl:text-base">
           {service.title}
         </h3>
-        <p className="mt-2 text-sm leading-relaxed text-[#4A4A4A] xl:text-base">
+        <p className="mt-2 text-sm max-w-[188px] leading-relaxed text-[#4A4A4A] xl:text-base">
           {service.description}
         </p>
       </div>
