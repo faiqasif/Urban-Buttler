@@ -8,7 +8,7 @@ const ServicesHeroSection = () => {
     <section className="overflow-hidden border-b border-[#E1D2BF] bg-[#FDF8F2]">
       <div className="grid h-full md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] 2xl:grid-cols-[820px_1fr] xl:min-h-[600px] 2xl:min-h-[638px] xl:max-h-[638px]">
         <div className="flex flex-col justify-center px-6 py-14 sm:px-10 sm:py-16 lg:px-14 lg:py-16 3xl:px-20 3xl:pl-28">
-          <p className="text-xs font-medium uppercase text-primary sm:text-sm lg:text-base xl:text-lg 3xl:text-xl">
+          <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg 3xl:text-xl">
             Our Services
           </p>
 
@@ -29,7 +29,7 @@ const ServicesHeroSection = () => {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
             <Button
               asChild
-              className="h-auto w-fit rounded-sm px-7 py-3 font-semibold uppercase tracking-[0.14em]"
+              className="h-[46px] w-fit text-base rounded-sm px-4 py-3 font-semibold uppercase tracking-normal"
             >
               <Link href="/get-started">Get Started</Link>
             </Button>

@@ -18,7 +18,7 @@ export function ServiceCatalogItemCard({
         alt={item.title}
         width={600}
         height={400}
-        className="aspect-[3/2] w-full object-cover"
+        className="w-full 3xl:h-[191px] object-cover"
       />
 
       <div className="flex flex-1 flex-col p-4">
