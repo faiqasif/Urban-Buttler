@@ -38,7 +38,7 @@ export function ForProvidersCategoryCard({
       />
 
       <div className="flex items-center justify-center px-3 py-2.5">
-        <h3 className="text-center text-[10px] font-bold uppercase tracking-wide text-primary sm:text-xs xl:text-sm">
+        <h3 className="text-center text-[10px] font-bold uppercase tracking-tight text-primary sm:text-xs xl:text-sm">
           {category.title}
         </h3>
       </div>
