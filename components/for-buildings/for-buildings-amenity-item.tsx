@@ -10,7 +10,7 @@ export function ForBuildingsAmenityItem({
   feature,
 }: ForBuildingsAmenityItemProps) {
   return (
-    <div className="flex w-full min-w-0 flex-col items-center text-center">
+    <div className="flex w-full min-w-0 max-w-[205px] mx-auto flex-col items-center text-center">
       <Image
         src={feature.icon}
         alt=""

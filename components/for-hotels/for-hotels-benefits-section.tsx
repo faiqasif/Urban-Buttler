@@ -10,7 +10,7 @@ const ForHotelsBenefitsSection = () => {
           <span className="text-primary">and you&apos;ll be recognized for.</span>
         </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:mt-16 xl:grid-cols-5 xl:gap-0 xl:divide-x xl:divide-[#E1D2BF]">
+        <div className="mt-8 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:mt-8 xl:grid-cols-5 xl:gap-0 xl:divide-x xl:divide-[#E1D2BF]">
           {forHotelsBenefitsFeatures.map((feature, index) => (
             <div
               key={feature.title}

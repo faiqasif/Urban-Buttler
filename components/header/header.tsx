@@ -14,6 +14,8 @@ import { NavLink } from "./nav-link";
 const Header = () => {
   const pathname = usePathname();
 
+  const getStartedButtonText = pathname === "/for-buildings" || pathname === "/for-hotels" || pathname === "/for-corporations" ? "Partner With Us" : pathname === "/for-providers" ? "Apply to Join" : "Get Started";
+
   return (
     <header className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-8 px-4 py-2 3xl:py-3 lg:px-10 xl:max-w-[1820px]">
@@ -49,7 +51,7 @@ const Header = () => {
             asChild
             className="hidden h-auto rounded-sm px-5 py-3 font-semibold uppercase lg:inline-flex"
           >
-            <Link href="mailto:Hello@urbanbutlerconcierge.com">Get Started</Link>
+            <Link href="mailto:Hello@urbanbutlerconcierge.com">{getStartedButtonText}</Link>
           </Button>
 
           <MobileNav pathname={pathname} />

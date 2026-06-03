@@ -27,7 +27,7 @@ const ForHotelsConciergeSection = () => {
               Seamless service, anytime, anywhere.
             </h2>
 
-            <p className="mt-4 text-base font-medium tracking-tight text-[#545454] sm:text-base 2xl:text-xl 3xl:text-2xl">
+            <p className="mt-4 3xl:max-w-[587px] text-base font-medium tracking-tight text-[#545454] sm:text-base 2xl:text-xl 3xl:text-2xl">
               Your guests get instant access to a dedicated concierge through
               our beautifully designed app—before, during, and after their stay.
             </p>

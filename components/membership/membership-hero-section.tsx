@@ -14,7 +14,7 @@ const MembershipHeroSection = () => {
             <span className="italic text-primary">handled.</span>
           </h1>
 
-          <p className="mt-6 max-w-md text-base leading-relaxed text-[#545454] font-medium tracking-tight sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
+          <p className="mt-6 max-w-md text-base text-[#545454] font-medium tracking-tight sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
             From light support to fully managed living, <br /> Urban Butler adapts to
             your lifestyle.
           </p>

@@ -25,7 +25,7 @@ const ForHotelsCtaSection = () => {
             className="w-full min-w-0 rounded-sm lg:col-span-2 xl:col-span-1"
           />
 
-          <div className="min-w-0 max-w-xl lg:max-w-none">
+          <div className="min-w-0 max-w-xl self-center lg:max-w-none">
             <p className="text-xs font-bold uppercase text-primary sm:text-sm lg:text-base 2xl:text-lg tracking-tight">
               Let&apos;s create exceptional guest experiences, together.
             </p>
@@ -45,7 +45,7 @@ const ForHotelsCtaSection = () => {
             </Button>
           </div>
 
-          <div className="min-w-0 max-w-sm lg:max-w-none">
+          <div className="min-w-0 max-w-sm self-center lg:max-w-none">
             <p className="text-base font-medium tracking-tight text-[#545454] sm:text-lg xl:text-lg 2xl:text-xl">
               Get started with a custom solution tailored to your property.
             </p>

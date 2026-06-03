@@ -25,7 +25,7 @@ export function ForBuildingsIntegrationStepItem({
         ) : null}
       </div>
 
-      <div className={isLast ? "pt-2.5" : "pb-6"}>
+      <div className={"pb-5"}>
         <h3 className="text-sm lg:text-base 3xl:text-lg font-bold uppercase text-primary">
           {step.title}
         </h3>
