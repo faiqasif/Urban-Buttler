@@ -19,7 +19,7 @@ export function AboutMissionValueItem({ value }: AboutMissionValueItemProps) {
       />
 
       <div>
-        <p className="text-xs font-bold uppercase text-primary sm:text-sm 2xl:text-base">
+        <p className="text-xs font-bold uppercase text-primary sm:text-sm 2xl:text-base 3xl:text-nowrap">
           {value.title}
         </p>
         <p className="mt-1 text-xs font-medium tracking-tight text-[#545454] sm:text-sm 2xl:text-base">

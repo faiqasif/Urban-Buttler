@@ -32,7 +32,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <h3 className="text-sm font-semibold uppercase text-primary xl:text-base">
           {service.title}
         </h3>
-        <p className="mt-2 text-sm max-w-[188px] leading-relaxed text-[#4A4A4A] xl:text-base">
+        <p className="mt-2 text-sm max-w-[188px] leading-tight text-[#4A4A4A] xl:text-base">
           {service.description}
         </p>
       </div>

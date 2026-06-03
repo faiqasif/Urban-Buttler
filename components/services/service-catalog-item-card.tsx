@@ -25,7 +25,7 @@ export function ServiceCatalogItemCard({
         <h3 className="text-sm font-bold uppercase text-[#1E1E1E] 2xl:text-xl">
           {index + 1}. {item.title}
         </h3>
-        <p className="mt-2 text-sm text-[#4A4A4A] font-medium tracking-tight 2xl:text-lg">
+        <p className="mt-2 text-sm text-[#4A4A4A] font-medium tracking-tight leading-tight 2xl:text-lg">
           {item.description}
         </p>
       </div>
