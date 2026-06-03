@@ -40,7 +40,7 @@ export function ServiceCatalogCategorySection({
 
       <div
         className={cn(
-          "mt-6 grid min-w-0 grid-cols-1 gap-4 sm:gap-5 xl:gap-6",
+          "mt-6 grid min-w-0 grid-cols-1 gap-4 sm:gap-5 xl:gap-6 3xl:gap-7",
           stretchHeight && "flex-1 auto-rows-fr items-stretch",
           columnClasses[category.columns],
         )}
