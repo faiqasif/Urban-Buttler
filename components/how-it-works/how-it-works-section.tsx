@@ -5,7 +5,7 @@ import { StepArrow } from "./step-arrow";
 const HowItWorksSection = () => {
   return (
     <section className="bg-[#FDF8F2] border-b border-[#E1D2BF]">
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:px-10 lg:py-20 xl:px-21.25 xl:py-24">
+      <div className="mx-auto max-w-7xl px-6 py-11.5 sm:px-10 xl:px-21.25">
         <div className="text-center">
           <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg">
             Simple. Seamless. Done
