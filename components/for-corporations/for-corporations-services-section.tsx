@@ -4,7 +4,7 @@ import { forCorporationsServicesCategories } from "./for-corporations-services-d
 const ForCorporationsServicesSection = () => {
   return (
     <section className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 lg:py-16 xl:max-w-[1820px] xl:px-16">
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-16">
         <div className="text-center">
           <p className="text-xs font-bold uppercase text-primary sm:text-sm lg:text-base tracking-tight">
             A Concierge Service That Supports Every Part of Life
@@ -15,7 +15,7 @@ const ForCorporationsServicesSection = () => {
           </h2>
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-12 lg:grid-cols-3 xl:grid-cols-5 xl:gap-5">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-12 lg:grid-cols-3 xl:grid-cols-5 xl:gap-5 max-w-[1660px] px-2 mx-auto">
           {forCorporationsServicesCategories.map((category) => (
             <ForCorporationsServicesCard key={category.title} category={category} />
           ))}

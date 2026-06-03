@@ -34,7 +34,7 @@ export function ForCorporationsValueItem({
         {feature.title}
       </h3>
 
-      <p className="mt-2 max-w-[220px] 3xl:max-w-[274px] text-sm font-medium text-[#545454] sm:text-base 3xl:text-xl tracking-tight">
+      <p className="mt-2 max-w-[220px] 3xl:max-w-[274px] text-sm font-medium text-[#545454] sm:text-base tracking-tight leading-tight">
         {feature.description}
       </p>
     </div>

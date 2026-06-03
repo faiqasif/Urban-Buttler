@@ -9,7 +9,7 @@ const ForCorporationsHeroSection = () => {
     <section className="overflow-hidden bg-[#FDF8F2] border-b border-[#E1D2BF]">
       <div className="grid h-full md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] 2xl:grid-cols-[820px_1fr] xl:min-h-[638px] xl:max-h-[638px]">
         <div className="flex flex-col justify-center px-6 py-14 sm:px-10 sm:py-16 lg:px-14 3xl:py-16 2xl:px-20 3xl:pl-28">
-          <p className="text-xs font-medium uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
+          <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
             Corporate Concierge
           </p>
 
@@ -28,12 +28,12 @@ const ForCorporationsHeroSection = () => {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
             <Button
               asChild
-              className="h-11.5 w-fit rounded-sm p-4 font-semibold uppercase"
+              className="h-11.5 w-fit rounded-sm px-5 font-semibold uppercase"
             >
               <Link href={urbanButlerEmailHref}>Partner With Us</Link>
             </Button>
 
-            <p className="max-w-xs text-sm font-medium tracking-tight text-[#545454] 2xl:text-base">
+            <p className="max-w-xs text-sm font-medium tracking-tight text-[#545454] 2xl:text-base 3xl:text-xl 3xl:max-w-[587px] 3xl:font-semibold">
               Tailored solutions for companies of all sizes.
             </p>
           </div>

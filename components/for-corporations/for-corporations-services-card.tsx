@@ -19,7 +19,7 @@ export function ForCorporationsServicesCard({
         className="aspect-8/5 w-full object-cover 3xl:aspect-auto 3xl:h-[191px] 3xl:w-[312px]"
       />
 
-      <div className="flex flex-1 flex-col p-4">
+      <div className="flex flex-1 flex-col w-full p-4">
         <div className="flex items-center gap-2.5">
           <Image
             src={category.icon}
@@ -34,7 +34,7 @@ export function ForCorporationsServicesCard({
           </h3>
         </div>
 
-        <ul className="mt-4">
+        <ul className="mt-1">
           {category.services.map((service) => (
             <li
               key={service}

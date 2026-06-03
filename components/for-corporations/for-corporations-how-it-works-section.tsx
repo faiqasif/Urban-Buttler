@@ -22,9 +22,9 @@ const ForCorporationsHowItWorksSection = () => {
           </h2>
         </div>
 
-        <div className="mt-10 grid items-start gap-10 lg:mt-12 3xl:grid-cols-[minmax(0,1fr)_minmax(240px,320px)] 3xl:gap-8">
+        <div className="mt-10 grid items-start gap-10 lg:mt-12 3xl:grid-cols-[minmax(0,1195px)_minmax(240px,460px)] 3xl:gap-8">
           <div className="min-w-0 overflow-x-auto pb-2 3xl:overflow-visible">
-            <div className="flex w-max min-w-full flex-nowrap items-center justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:justify-between">
+            <div className="flex w-max min-w-full flex-nowrap items-center justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:max-w-[1195px] 3xl:justify-between">
               {forCorporationsHowItWorksSteps.map((step, index) => (
                 <div key={step.step} className="flex items-start">
                   <ForCorporationsHowItWorksStepItem step={step} />
@@ -37,7 +37,7 @@ const ForCorporationsHowItWorksSection = () => {
                         strokeWidth={1.5}
                         className="shrink-0 text-primary self-center 3xl:hidden"
                       />
-                      <StepArrow className="hidden self-center h-3 w-20 shrink-0 text-primary 3xl:block" />
+                      <StepArrow className="hidden self-center h-3 w-20 3xl:w-24 shrink-0 text-primary 3xl:block" />
                     </>
                   ) : null}
                 </div>
@@ -45,30 +45,32 @@ const ForCorporationsHowItWorksSection = () => {
             </div>
           </div>
 
-          <aside className="mx-auto min-w-0 w-full max-w-2xl rounded-sm border border-[#E1D2BF] p-5 sm:p-6 3xl:mx-0 3xl:max-w-none">
-            <span
-              className="font-heading text-5xl leading-none text-primary"
-              aria-hidden="true"
-            >
-              &ldquo;
-            </span>
+          <div className="flex flex-col items-center justify-center w-full px-9 py-6 border-l border-[#E1D2BF]">
+            <aside className="mx-auto min-w-0 w-full max-w-2xl rounded-sm border border-[#E1D2BF] p-5 sm:p-6 3xl:mx-0 3xl:max-w-none">
+              <span
+                className="font-heading text-5xl leading-none text-primary"
+                aria-hidden="true"
+              >
+                &ldquo;
+              </span>
 
-            <blockquote className="mt-1 text-sm font-medium tracking-tight text-[#545454] sm:text-base 2xl:text-xl">
-              {forCorporationsHowItWorksTestimonial.quote}
-            </blockquote>
+              <blockquote className="mt-1 text-sm font-medium tracking-tight text-[#545454] sm:text-base 2xl:text-xl">
+                {forCorporationsHowItWorksTestimonial.quote}
+              </blockquote>
 
-            <span
-              className="mt-4 block h-[3px] w-[73px] bg-primary"
-              aria-hidden="true"
-            />
+              <span
+                className="mt-4 block h-[3px] w-[73px] bg-primary"
+                aria-hidden="true"
+              />
 
-            <p className="mt-4 text-xs font-bold uppercase tracking-tight text-primary sm:text-sm 2xl:text-lg">
-              {forCorporationsHowItWorksTestimonial.role}
-            </p>
-            <p className="mt-1 text-sm font-medium tracking-tight text-[#545454] 2xl:text-xl">
-              {forCorporationsHowItWorksTestimonial.attribution}
-            </p>
-          </aside>
+              <p className="mt-4 text-xs font-bold uppercase tracking-tight text-primary sm:text-sm 2xl:text-lg">
+                {forCorporationsHowItWorksTestimonial.role}
+              </p>
+              <p className="mt-1 text-sm font-medium tracking-tight text-[#545454] 2xl:text-xl">
+                {forCorporationsHowItWorksTestimonial.attribution}
+              </p>
+            </aside>
+          </div>
         </div>
       </div>
     </section>
