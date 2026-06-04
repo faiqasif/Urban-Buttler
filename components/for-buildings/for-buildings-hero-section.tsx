@@ -13,7 +13,7 @@ const ForBuildingsHeroSection = () => {
             For Buildings & Properties
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-[1.08] text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
+          <h1 className="mt-5 font-heading text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
             Elevate your residents’
             <br />
             <span className="italic text-primary">experience.</span>

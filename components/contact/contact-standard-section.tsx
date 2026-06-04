@@ -13,13 +13,13 @@ const ContactStandardSection = () => {
             </p>
 
             <h2 className="mt-2 font-heading text-[1.75rem] font-medium leading-snug text-[#1E1E1E] sm:text-3xl xl:text-4xl">
-              Experience the{" "}
+              Experience the <br />
               <span className="text-primary">Urban Butler standard.</span>
             </h2>
 
             <p className="mt-4 text-sm font-medium tracking-tight text-[#545454] sm:text-base xl:text-lg 2xl:text-xl 3xl:text-2xl">
-              Discretion. Precision. Care. That&apos;s not just how we
-              work—it&apos;s who we are.
+              Discretion. Precision. Care. <br /> That&apos;s not just how we
+              work— <br />it&apos;s who we are.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const ContactStandardSection = () => {
             />
 
             <p className="mt-4 max-w-xl text-sm font-medium tracking-tight text-[#545454] sm:text-base xl:max-w-none 3xl:max-w-[226px]">
-              Once you connect with us, your concierge experience begins the
+              Once you connect with us, <br /> your concierge experience begins the
               moment you need it.
             </p>
 

@@ -6,7 +6,7 @@ const ContactMessageSection = () => {
   return (
     <section className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
       <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-11.25">
-        <div className="grid gap-12 lg:grid-cols-2 2xl:grid-cols-[792px_1fr] lg:gap-0 lg:divide-x lg:divide-[#E1D2BF]">
+        <div className="grid gap-12 lg:grid-cols-[1fr_1px_1fr] 2xl:grid-cols-[792px_1px_1fr] lg:gap-0">
           <div className="lg:pr-11.5">
             <p className="text-xs font-bold uppercase text-primary sm:text-sm 2xl:text-base 3xl:text-lg">
               Send Us a Message
@@ -25,7 +25,7 @@ const ContactMessageSection = () => {
               <ContactMessageForm />
             </div>
           </div>
-
+          <div className="w-full h-full max-h-[489px] bg-[#E1D2BF]"></div>
           <div className="lg:pl-11.5">
             <p className="text-xs font-bold uppercase text-primary sm:text-sm 2xl:text-base 3xl:text-lg">
               Send Us a Message

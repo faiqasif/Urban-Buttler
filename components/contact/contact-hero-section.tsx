@@ -12,7 +12,7 @@ const ContactHeroSection = () => {
             Contact Us
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-[1.08] text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
+          <h1 className="mt-5 font-heading text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
             We&apos;re here.
             <br />
             <span className="italic text-primary">Whenever you need us.</span>
@@ -26,7 +26,7 @@ const ContactHeroSection = () => {
 
           <Button
             asChild
-            className="mt-8 h-11.5 w-fit rounded-sm p-4 font-semibold uppercase"
+            className="mt-8 h-11.5 w-fit rounded-sm px-5 font-semibold uppercase"
           >
             <Link href="/get-started">Get Started</Link>
           </Button>

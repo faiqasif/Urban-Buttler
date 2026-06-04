@@ -11,22 +11,21 @@ import {
 const ForCorporationsHowItWorksSection = () => {
   return (
     <section className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 lg:py-16 xl:max-w-[1820px] xl:px-16">
-        <div className="text-center">
-          <p className="text-xs font-bold uppercase text-primary sm:text-sm lg:text-base tracking-tight">
-            Simple. Seamless. Personalized.
-          </p>
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-16">
+        <div className="grid items-center gap-10 3xl:grid-cols-[minmax(0,1195px)_minmax(240px,460px)] 3xl:gap-8">
+          <div className="min-w-0 overflow-x-auto pb-2 3xl:overflow-visible flex flex-col w-full">
+            <div className="text-center">
+              <p className="text-xs font-bold uppercase text-primary sm:text-sm lg:text-base tracking-tight">
+                Simple. Seamless. Personalized.
+              </p>
 
-          <h2 className="mt-3 font-heading text-[2rem] font-medium leading-[1.15] text-[#1E1E1E] sm:text-4xl">
-            How It Works
-          </h2>
-        </div>
-
-        <div className="mt-10 grid items-start gap-10 lg:mt-12 3xl:grid-cols-[minmax(0,1195px)_minmax(240px,460px)] 3xl:gap-8">
-          <div className="min-w-0 overflow-x-auto pb-2 3xl:overflow-visible">
-            <div className="flex w-max min-w-full flex-nowrap items-center justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:max-w-[1195px] 3xl:justify-between">
+              <h2 className="mt-3 font-heading text-[2rem] font-medium leading-[1.15] text-[#1E1E1E] sm:text-4xl">
+                How It Works
+              </h2>
+            </div>
+            <div className="flex w-max min-w-full flex-nowrap mt-2 items-start justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:max-w-[1195px] h-full 3xl:justify-between">
               {forCorporationsHowItWorksSteps.map((step, index) => (
-                <div key={step.step} className="flex items-start">
+                <div key={step.step} className="flex items-start h-full">
                   <ForCorporationsHowItWorksStepItem step={step} />
 
                   {index < forCorporationsHowItWorksSteps.length - 1 ? (
@@ -35,9 +34,9 @@ const ForCorporationsHowItWorksSection = () => {
                         icon={ChevronRight}
                         size={32}
                         strokeWidth={1.5}
-                        className="shrink-0 text-primary self-center 3xl:hidden"
+                        className="shrink-0 text-primary mt-40 3xl:hidden"
                       />
-                      <StepArrow className="hidden self-center h-3 w-20 3xl:w-24 shrink-0 text-primary 3xl:block" />
+                      <StepArrow className="hidden mt-46 h-3 w-20 3xl:w-24 shrink-0 text-primary 3xl:block" />
                     </>
                   ) : null}
                 </div>

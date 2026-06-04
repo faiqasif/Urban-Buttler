@@ -30,7 +30,7 @@ const ForHotelsCtaSection = () => {
               Let&apos;s create exceptional guest experiences, together.
             </p>
 
-            <h2 className="mt-3 font-heading text-[1.75rem] font-medium leading-[1.15] text-[#1D1D1D] sm:text-3xl 2xl:text-4xl">
+            <h2 className="mt-3 font-heading text-[1.75rem] font-medium leading-snug text-[#1D1D1D] sm:text-3xl 2xl:text-4xl">
               Partner with Urban Butler and <br /> redefine the guest experience.
             </h2>
 

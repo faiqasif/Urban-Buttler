@@ -13,7 +13,7 @@ const ForCorporationsHeroSection = () => {
             Corporate Concierge
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-[1.08] text-[#1E1E1E] sm:text-4xl 2xl:text-[56px]">
+          <h1 className="mt-5 font-heading text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-4xl 2xl:text-[56px]">
             A Premium Concierge <p className="3xl:text-nowrap">Benefit for{" "}
               <span className="italic text-primary">Your Employees.</span></p>
           </h1>

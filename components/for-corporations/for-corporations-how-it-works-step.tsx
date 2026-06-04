@@ -10,7 +10,7 @@ export function ForCorporationsHowItWorksStepItem({
   step,
 }: ForCorporationsHowItWorksStepItemProps) {
   return (
-    <div className="w-full max-w-[220px] shrink-0 p-4 text-center">
+    <div className="w-full max-w-[220px] flex flex-col h-full shrink-0 p-4 text-center">
       <div className="mx-auto flex size-9 items-center justify-center rounded-full bg-primary">
         <span className="text-xl font-medium text-white">{step.step}</span>
       </div>

@@ -20,22 +20,22 @@ const AboutStorySection = () => {
               Our Story
             </p>
 
-            <h2 className="mt-2 2xl:mt-3 font-heading text-2xl font-medium leading-snug text-[#1E1E1E] 2xl:text-4xl">
+            <h2 className="mt-2 2xl:mt-2 font-heading text-2xl font-medium leading-snug text-[#1E1E1E] 2xl:text-4xl">
               Built on Experience.
               <br />
               Driven by a{" "}
               <span className="italic text-primary">passion for service.</span>
             </h2>
 
-            <p className="mt-2 2xl:mt-5 text-base font-medium tracking-tight text-[#545454] sm:text-lg xl:text-base 2xl:text-xl 3xl:text-2xl">
+            <p className="mt-2 2xl:mt-3 text-base font-medium leading-normal tracking-[-0.014em] text-[#545454] sm:text-lg xl:text-base 2xl:text-xl 3xl:text-2xl">
               Urban Butler was founded with a simple belief: life is better when
-              you have the right people managing the details. Our team brings
+              you have the right people managing the details. <br />Our team brings
               decades of experience in hospitality, luxury services, and
               lifestyle management. We saw the same problem high-performing
               individuals face every day—too many demands, not enough time.
             </p>
 
-            <p className="mt-2 2xl:mt-4 text-base font-semibold text-[#1E1E1E] sm:text-lg xl:text-base 2xl:text-xl 3xl:text-2xl">
+            <p className="mt-2 2xl:mt-6 text-base font-semibold text-[#1E1E1E] sm:text-lg xl:text-base 2xl:text-xl 3xl:text-2xl">
               So we built the solution.
             </p>
           </div>

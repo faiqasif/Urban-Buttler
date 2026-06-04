@@ -12,7 +12,7 @@ const HeroSection = () => {
             A Private Concierge
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-[1.08] text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
+          <h1 className="mt-5 font-heading text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
             Life, Without
             <br />
             <span className="italic text-primary">the Friction.</span>

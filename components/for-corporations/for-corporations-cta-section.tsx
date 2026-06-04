@@ -31,7 +31,7 @@ const ForCorporationsCtaSection = () => {
             </p>
 
             <h2 className="mt-3 font-heading text-[1.75rem] font-medium leading-[1.15] text-[#1D1D1D] sm:text-3xl lg:text-4xl">
-              Partner with Urban Butler and elevate your employee experience.
+              Partner with Urban Butler and <br /> elevate your employee experience.
             </h2>
 
             <Button
