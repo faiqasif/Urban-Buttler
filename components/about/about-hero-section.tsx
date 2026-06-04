@@ -5,22 +5,22 @@ const AboutHeroSection = () => {
     <section className="overflow-hidden bg-[#FDF8F2] border-b border-[#E1D2BF]">
       <div className="grid h-full md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] 2xl:grid-cols-[820px_1fr] xl:min-h-[638px] xl:max-h-[638px]">
         <div className="flex flex-col justify-center px-6 py-14 sm:px-10 sm:py-16 lg:px-14 3xl:py-16 2xl:px-20 3xl:pl-28">
-          <p className="text-xs font-medium uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
+          <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
             About Urban Butler
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
+          <h1 className="mt-2 font-heading font-medium text-[2.5rem] leading-snug text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
             We exist to remove friction{" "}
             <span className="italic text-primary">from your life.</span>
           </h1>
 
-          <p className="mt-6 max-w-md text-base text-[#545454] font-medium tracking-tight sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
+          <p className="mt-4 max-w-md text-base text-[#545454] font-medium tracking-tight sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
             Urban Butler is a private concierge and lifestyle management company
             dedicated to giving you back what matters most—your time, your
             focus, and your peace of mind.
           </p>
 
-          <p className="mt-3 max-w-md text-base font-medium tracking-tight text-[#545454] sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
+          <p className="mt-9 max-w-md text-base font-medium tracking-tight text-[#545454] sm:text-lg lg:text-xl 2xl:text-2xl xl:max-w-[587px]">
             We handle everything. You live effortlessly.
           </p>
         </div>

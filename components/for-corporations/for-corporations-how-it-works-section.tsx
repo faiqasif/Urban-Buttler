@@ -23,7 +23,7 @@ const ForCorporationsHowItWorksSection = () => {
                 How It Works
               </h2>
             </div>
-            <div className="flex w-max min-w-full flex-nowrap mt-2 items-start justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:max-w-[1195px] h-full 3xl:justify-between">
+            <div className="flex w-max min-w-full flex-nowrap mt-4 items-start justify-center gap-2 sm:gap-3 3xl:w-auto 3xl:max-w-[1195px] h-full 3xl:justify-between">
               {forCorporationsHowItWorksSteps.map((step, index) => (
                 <div key={step.step} className="flex items-start h-full">
                   <ForCorporationsHowItWorksStepItem step={step} />

@@ -31,7 +31,7 @@ const ContactStandardSection = () => {
             className="h-auto w-full min-w-0 rounded-sm object-cover lg:justify-self-end xl:justify-self-center"
           />
 
-          <div className="flex flex-col justify-center border-t border-[#E1D2BF] pt-8 lg:col-span-2 xl:col-span-1 xl:border-t-0 xl:border-l xl:pt-0 xl:pl-6 3xl:pl-10">
+          <div className="flex flex-col h-full justify-center border-t border-[#E1D2BF] pt-8 lg:col-span-2 xl:col-span-1 xl:border-t-0 xl:border-l xl:pt-0 xl:pl-6 3xl:pl-10">
             <HugeiconsIcon
               icon={ServingFoodIcon}
               size={56}
