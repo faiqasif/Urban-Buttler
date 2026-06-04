@@ -6,9 +6,9 @@ import { urbanButlerEmailHref } from "@/lib/site-contact";
 const ForProvidersCtaSection = () => {
   return (
     <section className="border-y border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-16 xl:py-12">
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1600px] xl:px-16 xl:py-12">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
-          <div className="max-w-2xl">
+          <div className="">
             <h2 className="font-heading text-[1.75rem] font-medium leading-[1.15] text-[#1D1D1D] sm:text-3xl lg:text-4xl">
               Let&apos;s deliver exceptional experiences,{" "}
               <span className="text-primary">together.</span>

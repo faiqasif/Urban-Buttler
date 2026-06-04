@@ -3,6 +3,7 @@ export type ServiceCatalogItem = {
   title: string;
   description: string;
   image: string;
+  tracking?: "tight" | "tighter" | "normal";
 };
 
 export type ServiceCatalogCategory = {
@@ -26,12 +27,14 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Impeccable home cleaning services tailored to your schedule.",
         image: "/services/1.png",
+        tracking: "tight",
       },
       {
         slug: "laundry-dry-tailor",
         title: "Laundry / Dry / Tailor",
         description: "Professional laundry, dry cleaning and tailoring.",
         image: "/services/2.png",
+        tracking: "tight",
       },
       {
         slug: "furniture-assembly",
@@ -39,12 +42,14 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Professional assembly of all types of furniture, quickly and efficiently.",
         image: "/services/3.png",
+        tracking: "tight",
       },
       {
         slug: "moving-services",
         title: "Moving Services",
         description: "Seamless moving experience with trusted professionals.",
         image: "/services/4.png",
+        tracking: "tight",
       },
       {
         slug: "home-organization",
@@ -52,6 +57,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Organized spaces, styled closets, and calm, functional homes.",
         image: "/services/5.png",
+        tracking: "tight",
       },
     ],
   },
@@ -66,6 +72,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         title: "Babysitting",
         description: "Trusted, experienced caregivers for your children.",
         image: "/services/6.png",
+        tracking: "tight",
       },
       {
         slug: "pet-care",
@@ -73,6 +80,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Dog walking, grooming, pet sitting and spa services you can trust.",
         image: "/services/7.png",
+        tracking: "tight",
       },
       {
         slug: "shoe-bag-repair",
@@ -80,6 +88,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Expert repair and restoration to keep your items looking like new.",
         image: "/services/8.png",
+        tracking: "tight",
       },
       {
         slug: "personal-shopping",
@@ -87,6 +96,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Personalized shopping services to find exactly what you need.",
         image: "/services/9.png",
+        tracking: "tight",
       },
       {
         slug: "flowers-gifts",
@@ -94,6 +104,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Beautiful arrangements and thoughtful gifts for any occasion.",
         image: "/services/10.png",
+        tracking: "tight",
       },
     ],
   },
@@ -109,12 +120,14 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Exclusive access to top restaurants and events. We get you the best table.",
         image: "/services/11.png",
+        tracking: "tight",
       },
       {
         slug: "event-planning-catering",
         title: "Event Planning & Catering/Private Chef",
         description: "Exquisite dining experiences and flawless event planning.",
         image: "/services/12.png",
+        tracking: "tight",
       },
       {
         slug: "members-only-events",
@@ -122,6 +135,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "Exclusive access to private events and unique member experiences.",
         image: "/services/13.png",
+        tracking: "tight",
       },
     ],
   },
@@ -137,6 +151,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "At-home beauty services, personal trainers, yoga and fitness classes.",
         image: "/services/14.png",
+        tracking: "tighter",
       },
       {
         slug: "doctors-appointment",
@@ -144,6 +159,7 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         description:
           "We schedule and manage your medical appointments with ease.",
         image: "/services/15.png",
+        tracking: "tight",
       },
     ],
   },
@@ -158,18 +174,21 @@ export const serviceCatalogCategories: ServiceCatalogCategory[] = [
         title: "Travel Planning",
         description: "Custom travel planning and bookings.",
         image: "/services/16.png",
+        tracking: "tight",
       },
       {
         slug: "transportation",
         title: "Transportation",
         description: "Private transportation services for any occasion.",
         image: "/services/17.png",
+        tracking: "normal",
       },
       {
         slug: "vehicle-care",
         title: "Vehicle Care",
         description: "Car wash, detailing, and maintenance.",
         image: "/services/18.png",
+        tracking: "tight",
       },
     ],
   },

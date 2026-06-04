@@ -9,11 +9,11 @@ const ForHotelsHeroSection = () => {
     <section className="overflow-hidden bg-[#FDF8F2] border-b border-[#E1D2BF]">
       <div className="grid h-full md:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] 2xl:grid-cols-[820px_1fr] xl:min-h-[638px] xl:max-h-[638px]">
         <div className="flex flex-col justify-center px-6 py-14 sm:px-10 sm:py-16 lg:px-14 3xl:py-16 2xl:px-20 3xl:pl-28">
-          <p className="text-xs font-medium uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
+          <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg 2xl:text-xl">
             For Hotels
           </p>
 
-          <h1 className="mt-5 font-heading text-[2.5rem] leading-[1.08] text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
+          <h1 className="mt-3 font-heading leading-snug text-[2.5rem] text-[#1E1E1E] sm:text-5xl lg:text-[3.25rem] xl:text-[56px]">
             Delight your guests.
             <br />
             <span className="italic text-primary">Elevate every stay.</span>

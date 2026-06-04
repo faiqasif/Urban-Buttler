@@ -20,7 +20,7 @@ export function ForBuildingsAmenityItem({
         className="shrink-0"
       />
 
-      <h3 className="mt-4 text-xs font-bold uppercase text-primary sm:text-sm xl:text-base">
+      <h3 className="mt-4 text-xs font-bold uppercase text-primary sm:text-sm xl:text-base text-nowrap">
         {feature.title}
       </h3>
 

@@ -32,8 +32,13 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <h3 className="text-sm font-semibold uppercase text-primary xl:text-base">
           {service.title}
         </h3>
-        <p className="mt-2 text-sm max-w-[188px] leading-tight text-[#4A4A4A] xl:text-base">
-          {service.description}
+        <p className="mt-2 text-sm leading-tight text-[#4A4A4A] xl:text-base">
+          {service.description.split("\n").map((line, index) => (
+            <span key={index}>
+              {line}
+              {index < service.description.split("\n").length - 1 && <br />}
+            </span>
+          ))}
         </p>
       </div>
     </article>

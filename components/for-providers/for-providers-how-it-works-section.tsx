@@ -18,7 +18,7 @@ const ForProvidersHowItWorksSection = () => {
           </h2>
         </div>
 
-        <div className="mt-12 flex flex-col items-center gap-10 lg:mt-14 lg:flex-row lg:items-start lg:justify-center lg:gap-6 xl:gap-8">
+        <div className="mt-6 flex flex-col items-center gap-10 lg:flex-row lg:items-start lg:justify-center lg:gap-6 xl:gap-8">
           {forProvidersHowItWorksSteps.map((step, index) => (
             <div key={step.step} className="contents">
               <ForProvidersHowItWorksStepItem step={step} />

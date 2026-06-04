@@ -24,7 +24,7 @@ export function ServiceCatalogCategorySection({
 }: ServiceCatalogCategorySectionProps) {
   return (
     <section className={cn(stretchHeight && "flex h-full flex-col", className)}>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 pl-3">
         <Image
           src={category.icon}
           alt=""
@@ -46,7 +46,7 @@ export function ServiceCatalogCategorySection({
         )}
       >
         {category.items.map((item, index) => (
-          <ServiceCatalogItemCard key={item.slug} item={item} index={index} />
+          <ServiceCatalogItemCard key={item.slug} item={item} index={index} tracking={item.tracking} />
         ))}
       </div>
     </section>

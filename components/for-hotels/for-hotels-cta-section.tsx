@@ -15,8 +15,8 @@ const forHotelsCtaBenefits = [
 const ForHotelsCtaSection = () => {
   return (
     <section className="border-b border-[#E1D2BF] bg-[#FDF8F2]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] xl:px-11.25">
-        <div className="grid items-center xl:items-start gap-10 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)_minmax(0,0.9fr)] xl:gap-6 2xl:gap-8 3xl:grid-cols-[minmax(0,489px)_minmax(0,1fr)_minmax(280px,360px)] 3xl:gap-12">
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1770px] xl:px-11.25">
+        <div className="grid items-center xl:items-start gap-10 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)_minmax(0,0.9fr)] xl:gap-6 2xl:gap-8 3xl:grid-cols-[minmax(0,489px)_minmax(0,1fr)_minmax(240px,393px)] 3xl:gap-12">
           <Image
             src="/for-hotels/fh2.png"
             alt="Luxury coastal resort at sunset"
@@ -31,12 +31,12 @@ const ForHotelsCtaSection = () => {
             </p>
 
             <h2 className="mt-3 font-heading text-[1.75rem] font-medium leading-[1.15] text-[#1D1D1D] sm:text-3xl 2xl:text-4xl">
-              Partner with Urban Butler and redefine the guest experience.
+              Partner with Urban Butler and <br /> redefine the guest experience.
             </h2>
 
             <Button
               asChild
-              className="mt-6 h-11.5 w-full rounded-sm p-4 font-semibold uppercase sm:w-fit"
+              className="mt-6 h-11.5 w-full rounded-sm px-9 font-semibold uppercase sm:w-fit"
             >
               <Link href={urbanButlerEmailHref} className="inline-flex items-center gap-2">
                 Partner With Us
@@ -46,7 +46,7 @@ const ForHotelsCtaSection = () => {
           </div>
 
           <div className="min-w-0 max-w-sm self-center lg:max-w-none">
-            <p className="text-base font-medium tracking-tight text-[#545454] sm:text-lg xl:text-lg 2xl:text-xl">
+            <p className="text-base font-medium tracking-tight text-[#545454] sm:text-lg xl:text-lg 2xl:text-2xl">
               Get started with a custom solution tailored to your property.
             </p>
 
