@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/select";
 
 import { contactInterestOptions } from "./contact-message-data";
+import { buildContactFormMailtoHref } from "@/lib/site-contact";
 
 const fieldPlaceholderClassName =
   "pointer-events-none absolute left-4 top-1/2 z-10 -translate-y-1/2 text-xs font-semibold uppercase tracking-wide text-[#545454]";
@@ -38,6 +39,17 @@ export function ContactMessageForm() {
       className="space-y-4"
       onSubmit={(event) => {
         event.preventDefault();
+
+        const mailtoHref = buildContactFormMailtoHref({
+          firstName,
+          lastName,
+          email,
+          phone,
+          interest,
+          message,
+        });
+
+        window.location.href = mailtoHref;
       }}
     >
       <div className="grid gap-4 sm:grid-cols-2">
