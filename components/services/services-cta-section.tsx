@@ -23,7 +23,7 @@ const ServicesCtaSection = () => {
           asChild
           className="mt-6 h-auto rounded-sm px-7 py-3 font-semibold uppercase tracking-[0.14em]"
         >
-          <Link href="/get-started">Get Started</Link>
+          <Link href="mailto:Hello@urbanbutlerconcierge.com">Get Started</Link>
         </Button>
       </div>
     </section>

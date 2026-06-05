@@ -28,7 +28,7 @@ const ContactHeroSection = () => {
             asChild
             className="mt-8 h-11.5 w-fit rounded-sm px-5 font-semibold uppercase"
           >
-            <Link href="/get-started">Get Started</Link>
+            <Link href="mailto:Hello@urbanbutlerconcierge.com">Get Started</Link>
           </Button>
         </div>
 

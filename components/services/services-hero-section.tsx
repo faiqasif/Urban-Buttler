@@ -31,7 +31,7 @@ const ServicesHeroSection = () => {
               asChild
               className="h-[46px] w-fit text-base rounded-sm px-4 py-3 font-semibold uppercase tracking-normal"
             >
-              <Link href="/get-started">Get Started</Link>
+              <Link href="mailto:Hello@urbanbutlerconcierge.com">Get Started</Link>
             </Button>
 
             <p className="text-sm text-[#545454] sm:text-base lg:text-xl font-semibold">

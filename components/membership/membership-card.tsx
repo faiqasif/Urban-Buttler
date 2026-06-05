@@ -65,7 +65,7 @@ export function MembershipCard({ plan }: MembershipCardProps) {
               "border-primary bg-transparent text-primary hover:bg-primary/5",
           )}
         >
-          <Link href="/get-started">Get Started</Link>
+          <Link href="mailto:Hello@urbanbutlerconcierge.com">Get Started</Link>
         </Button>
       </div>
     </article>
