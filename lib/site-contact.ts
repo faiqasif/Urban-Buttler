@@ -34,10 +34,5 @@ export function buildContactFormMailtoHref({
     message || "Not provided",
   ].join("\n");
 
-  const params = new URLSearchParams({
-    subject,
-    body,
-  });
-
-  return `mailto:${urbanButlerEmail}?${params.toString()}`;
+  return `mailto:${urbanButlerEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
