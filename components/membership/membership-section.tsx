@@ -14,12 +14,12 @@ const MembershipSection = () => {
             Choose how much of your life you want handled.
           </h2>
 
-          <p className="mt-4 text-base text-[#545454] font-medium sm:text-lg xl:text-xl">
+          <p className="mt-4 text-base text-[#545454] font-medium tracking-[-0.015em] sm:text-lg xl:text-2xl">
             Flexible plans. Personalized service. Always on your terms.
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 lg:mt-14 lg:grid-cols-3 lg:gap-6 xl:gap-8 2xl:max-w-[1660px] 3xl:px-[100px]">
+        <div className="mt-12 grid grid-cols-1 gap-6 lg:mt-14 lg:grid-cols-3 lg:gap-6 xl:gap-8 2xl:max-w-[1660px] 3xl:px-[80px]">
           {membershipPlans.map((plan) => (
             <MembershipCard key={plan.name} plan={plan} />
           ))}

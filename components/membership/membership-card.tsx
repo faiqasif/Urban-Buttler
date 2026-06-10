@@ -12,7 +12,7 @@ type MembershipCardProps = {
 
 export function MembershipCard({ plan }: MembershipCardProps) {
   return (
-    <article className="relative flex h-full flex-col overflow-hidden rounded-b-lg border border-[#E1D2BF] p-6 3xl:min-w-[470px]">
+    <article className="relative flex h-full flex-col w-full overflow-hidden rounded-b-lg border border-[#E1D2BF] p-6 3xl:min-w-[470px]">
       {"badge" in plan && plan.badge ? (
         <div className="pointer-events-none  absolute right-0 top-0 size-28 2xl:size-32 overflow-hidden">
           <span className="absolute right-[-34px] 2xl:right-[-38px] top-[22px] 2xl:top-[26px] w-[140px] 2xl:w-[171px] rotate-45 bg-primary py-1.5 text-center text-xs 2xl:text-base 2xl:pl-3 font-semibold tracking-wide text-white">
@@ -22,10 +22,10 @@ export function MembershipCard({ plan }: MembershipCardProps) {
       ) : null}
 
       <div className="flex flex-col gap-1 items-center">
-        <h3 className="text-lg font-semibold text-primary xl:text-xl">
+        <h3 className="text-lg font-semibold text-primary xl:text-2xl">
           {plan.number}. <span className="text-[#1D1D1D]">{plan.name}</span>
         </h3>
-        <p className="mt-1 text-sm text-[#4A4A4A] sm:text-base xl:text-xl tracking-tight">
+        <p className="mt-1 text-sm text-[#4A4A4A] sm:text-base xl:text-xl font-semibold tracking-tight">
           {plan.description}
         </p>
       </div>
