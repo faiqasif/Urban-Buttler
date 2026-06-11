@@ -2,7 +2,8 @@ export const membershipPlans = [
   {
     number: 1,
     name: "Access",
-    description: "Essential Support, on demand.",
+    heading: "Everyday Convenience.",
+    description: "For those moments when an extra hand makes all the diffference.",
     features: [
       "Housekeeping",
       "Laundry/Dry Cleaning/Tailor",
@@ -14,11 +15,13 @@ export const membershipPlans = [
     ],
     price: 0,
     highlighted: false,
+    icon: "/membership/1.png"
   },
   {
     number: 2,
     name: "Preferred",
-    description: "Elevated responsiveness and priority.",
+    heading: "Your time, protected.",
+    description: "Expanded services and priority support to simplify your weekly life.",
     features: [
       "Babysitting",
       "Wellness & Beauty",
@@ -31,11 +34,13 @@ export const membershipPlans = [
     price: 59,
     highlighted: true,
     badge: "Most Popular",
+    icon: "/membership/2.png"
   },
   {
     number: 3,
     name: "Dedicated",
-    description: "Full lifestyle management, personalized to you.",
+    heading: "Life Fully Managed.",
+    description: "Full-service lifestyle management with discretion, precision & care.",
     features: [
       "Personal Shopping",
       "Travel Planning (Domestic & International)",
@@ -47,6 +52,7 @@ export const membershipPlans = [
     ],
     price: 99,
     highlighted: false,
+    icon: "/membership/3.png"
   },
 ] as const;
 
