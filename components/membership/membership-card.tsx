@@ -31,7 +31,7 @@ export function MembershipCard({ plan }: MembershipCardProps) {
           {plan.description}
         </p>
         <div className="w-full h-px bg-[#E1D2BF] my-4"></div>
-        <span className="text-primary uppercase text-lg mb-2 font-semibold">Whats included</span>
+        <span className="text-primary uppercase text-lg mb-2 font-semibold">What's included</span>
       </div>
 
       <ul className="mt-4 flex flex-1 flex-col gap-3">
