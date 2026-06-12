@@ -4,7 +4,7 @@ import { membershipPlans } from "./membership-data";
 const MembershipSection = () => {
   return (
     <section className="bg-[#FDF8F2] border-b border-[#E1D2BF]">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:px-10 xl:max-w-[1820px] 3xl:px-16 xl:py-11.25">
+      <div className="mx-auto max-w-7xl w-full px-6 py-10 sm:px-10 xl:max-w-[1820px] 3xl:px-16 xl:py-11.25">
         <div className="mx-auto text-center">
           <p className="text-xs font-semibold uppercase text-primary sm:text-sm lg:text-base xl:text-lg">
             Membership
@@ -23,6 +23,9 @@ const MembershipSection = () => {
           {membershipPlans.map((plan) => (
             <MembershipCard key={plan.name} plan={plan} />
           ))}
+        </div>
+        <div className="text-center px-5 text-lg lg:text-xl 3xl:text-2xl font-medium text-[#545454] self-center w-full mt-8">
+          Service fees are applied and vary by membership level.
         </div>
       </div>
     </section>

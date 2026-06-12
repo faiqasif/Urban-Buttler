@@ -56,10 +56,10 @@ export function MembershipCard({ plan }: MembershipCardProps) {
           </span>
           <span className="text-base text-[#545454] sm:text-xl font-semibold">/Month</span>
         </p>
-        {plan.highlighted && (
+        {plan.welcomeCredit && (
           <div className="w-full mt-4 h-7.5 bg-[#F0E9E0] text-primary flex items-center gap-1.5 text-sm justify-center">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_940_341)">
+              <g clipPath="url(#clip0_940_341)">
                 <path d="M3 8.25V11.25C3 13.7248 3 14.9623 3.76885 15.7312C4.53769 16.5 5.77513 16.5 8.25 16.5H9.75C12.2248 16.5 13.4623 16.5 14.2312 15.7312C15 14.9623 15 13.7248 15 11.25V8.25" stroke="#9D6E2F" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                 <path d="M2.25 6.75C2.25 6.18923 2.25 5.90884 2.40072 5.7C2.49946 5.56318 2.64148 5.44957 2.8125 5.37058C3.07356 5.25 3.42403 5.25 4.125 5.25H13.875C14.5759 5.25 14.9264 5.25 15.1875 5.37058C15.3585 5.44957 15.5005 5.56318 15.5992 5.7C15.75 5.90884 15.75 6.18923 15.75 6.75C15.75 7.31077 15.75 7.59112 15.5992 7.8C15.5005 7.9368 15.3585 8.05043 15.1875 8.1294C14.9264 8.25 14.5759 8.25 13.875 8.25H4.125C3.42403 8.25 3.07356 8.25 2.8125 8.1294C2.64148 8.05043 2.49946 7.9368 2.40072 7.8C2.25 7.59112 2.25 7.31077 2.25 6.75Z" stroke="#9D6E2F" strokeWidth="1.25" strokeLinejoin="round" />
                 <path d="M4.5 2.83928C4.5 2.09962 5.09962 1.5 5.83928 1.5H6.10715C7.70483 1.5 9 2.79517 9 4.39285V5.25H6.91072C5.57931 5.25 4.5 4.17068 4.5 2.83928Z" stroke="#9D6E2F" strokeWidth="1.25" strokeLinejoin="round" />

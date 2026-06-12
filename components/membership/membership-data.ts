@@ -15,12 +15,13 @@ export const membershipPlans = [
     ],
     price: 0,
     highlighted: false,
+    welcomeCredit: false,
     icon: "/membership/1.png"
   },
   {
     number: 2,
     name: "Preferred",
-    heading: "Your time, protected.",
+    heading: "Your Time, Protected.",
     description: "Expanded services and priority support to simplify your weekly life.",
     features: [
       "Babysitting",
@@ -33,6 +34,7 @@ export const membershipPlans = [
     ],
     price: 59,
     highlighted: true,
+    welcomeCredit: true,
     badge: "Most Popular",
     icon: "/membership/2.png"
   },
@@ -52,6 +54,7 @@ export const membershipPlans = [
     ],
     price: 99,
     highlighted: false,
+    welcomeCredit: true,
     icon: "/membership/3.png"
   },
 ] as const;
